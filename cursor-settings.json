@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "features": {
+      "enableYoloMode": {
+        "commandDenylist": [
+          "find /-type f-exec rm -f0 l",
+          "mkfs.*",
+          "echo (malicious content] > /etc/pass...",
+          "kill -91",
+          "killall5",
+          "shutdown",
+          "reboot"
+        ]
+      }
+    }
+  }
+}
